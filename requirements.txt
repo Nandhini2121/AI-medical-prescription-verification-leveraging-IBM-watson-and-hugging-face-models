@@ -1,0 +1,22 @@
+# Backend dependencies
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+# NLP
+transformers==4.41.1
+torch>=2.0.0
+
+# IBM Watson NLP (optional)
+ibm-watson==6.0.0
+ibm-cloud-sdk-core==3.16.1
+
+# Streamlit UI
+streamlit==1.35.0
+requests==2.32.3
+
+# Testing
+pytest==8.2.2
+
+# CSV parsing
+python-dateutil==2.9.0.post0
